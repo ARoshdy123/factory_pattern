@@ -1,3 +1,6 @@
+abstract class Shape {
+  void revealMe();
+}
 
 class Circle implements Shape {
   @override
@@ -18,6 +21,4 @@ class Square implements Shape {
   void revealMe() {
     print("You chose to print square");
   }
-}abstract class Shape {
-  void revealMe();
 }

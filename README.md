@@ -1,16 +1,11 @@
 # factory_pattern
 
-A new Flutter project.
+Flutter task apply on **Factory Design Pattern** by creating objects without specifying their concrete classes. We have defined an abstract `Shape` class and implemented three concrete classes (`Circle`, `Rectangle`, and `Square`) with their own implementations of the `revealMe()` method. A `ShapeFactory` class is used to create these objects based on a provided string.
 
-## Getting Started
+- **Concrete Shape Classes:**
+    - `Circle`: Prints "You chose to print circle".
+    - `Rectangle`: Prints "You chose to print rectangle".
+    - `Square`: Prints "You chose to print square".
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Shape Factory:**  
+  A class with a `getShape()`
